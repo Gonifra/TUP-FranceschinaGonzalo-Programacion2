@@ -1,0 +1,110 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticaIntegrada</title>
+</head>
+
+
+
+<body>
+    <header>Franceschina Gonzalo
+        <nav>
+            
+            <a href="#sobreMi">Sobre mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+            
+            
+        </nav>
+    </header>
+    
+    <section id="sobreMi">
+    <h3>Sobre mi</h3>
+    <p>Soy Gonzalo Franceschina, un programador en curso. Sin experiencia en la programacion<br>
+        pero con 13 años de experiencia en la industria metalurgica, adquiriendo habilidades <br>
+        de trabajo en equipo, comunicacion y trabajo en equipo, lo que me ha permitido llegar<br>
+        a ser encargado de la seccion. Mi enfoque se centra en la creatividad, siempre buscando <br>
+        soluciones originales a los desafios que enfrento, creo en el trabajo colaborativo y<br>
+        la comunicacion abierta para el exito de un proyecto, mi objetivo es fomentar el <br>
+        crecimiento profecional y personal de los equipos con los que trabajo.<br>
+    </p>
+    <p>Cuando no estoy trabajando, disfruto hacer deportes y juntarme con amigos, lo que me <br> 
+        ayuda a desconectarme del trabajo y asi volver a enfocarme al dia siguiente.
+    </p>
+    </section>
+
+    <section id="proyectos"> 
+    <h3>Proyectos</h3>
+    <ul>
+        <li>Base de datos adaptada a empresas metalurgicas: proyecto para la materia base de datos(en proceso) <a href="https://github.com/Gonifra/BaseDatosMetalurgica.git">Ver</a></li>
+        <li>Juego de la birra:un juego de azar programado en C <a href="https://github.com/Gonifra/PracticoJuego">Ver</a></li>
+        <li>Este trabajo: trabajo integrador de html <a href="https://github.com/Gonifra/-franceschinaGonzalo---Armstrong---TUP---2024--html.git">Ver</a></li>
+    </ul>
+    </section>
+
+    <section id="cursos">
+    <h3>Cursos</h3>
+    
+    <table>
+        <tr>
+            <th>Curso</th>>
+            <th>Institucion</th>
+            <th>Año</th>
+        </tr>
+        <tr>
+            <td>Desarrollo web</td>
+            <td>Univerdidad XYZ</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>Programacion en Python</td>
+            <td>Academia ABC</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>Diseño UX/UI</td>
+            <td>Instituto 123</td>
+            <td>2023</td>
+        </tr>
+    </table>
+    </section>
+
+    <section id="habilidades">
+        <h3>Habilidades</h3>
+        <ol>
+            <li>Resolucion de problemas</li>
+            <li>Comunicacion</li>
+            <li>Trabajo en equipo</li>
+            <li>Adaptabilidad</li>
+            <li>Lenguajes de programacion
+            <ul style="list-style-type: square;">
+                <li>C</li>
+                <li>html</li>
+                <li>Python</li>
+            
+        </ul></li>
+    </section>
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <ol>
+            <li>Instragram <a href="https://www.instragram.com/">Ir al perfil</a></li>
+            <li>Whatsapp <a href="https://web.whatsapp.com">Escribir</a></li>
+            <li>Mail: gonifra@gmail.com</li>
+        </ol>
+        <form action="www.gonza.com" method="POST" target="_blank">
+            Nombre:<input type="text" required><br>
+            Email:<input type="email" required><br>
+            <textarea name="mensaje" rows="10" cols="30">Escribe tu mensaje...</textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+
+</body>
+</html>
